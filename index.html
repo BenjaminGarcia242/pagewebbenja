@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Noticias del Día - Benjamin García</title>
+  <style>
+    body {
+      background-color: #4CAF50;
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #388E3C;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header h2 {
+      margin: 5px 0 0 0;
+      font-size: 24px;
+    }
+    .news-section, .trend-section, .ai-section {
+      padding: 20px;
+    }
+    .news-item {
+      margin-bottom: 20px;
+    }
+    .news-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .trend-section h2, .ai-section h2 {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .boton {
+      background-color: white;
+      color: #4CAF50;
+      border: none;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 8px;
+      margin: 10px;
+      cursor: pointer;
+      transition: transform 0.3s, background-color 0.3s;
+      display: inline-block;
+    }
+    .boton:hover {
+      background-color: #e0e0e0;
+      transform: scale(1.1);
+    }
+    .boton:active {
+      transform: scale(0.95);
+    }
+    .ai-section img {
+      display: block;
+      margin: 0 auto;
+      max-width: 200px;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+    }
+    .profe {
+      cursor: pointer;
+      transition: transform 0.3s;
+      display: inline-block;
+    }
+    .profe:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Noticias del Día</h1>
+    <h2>Benjamin García</h2>
+  </header>
+
+  <section class="news-section">
+    <div class="news-item">
+      <h3>Falleció el Papa Francisco el lunes 21 de abril por problemas respiratorios</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Franciscus_in_2015.jpg" alt="Papa Francisco">
+    </div>
+    <div class="news-item">
+      <h3>La ministra de Vivienda renunció a su cargo</h3>
+      <img src="https://www.gub.uy/ministerio-vivienda-ordenamiento-territorial/sites/ministerio-vivienda-ordenamiento-territorial/files/styles/focal_point_800x600/public/2023-07/cecilia-cairo.jpg" alt="Cecilia Cairo">
+    </div>
+  </section>
+
+  <section class="trend-section">
+    <h2>Tendencia</h2>
+    <div class="buttons">
+      <a href="https://open.spotify.com/" class="boton">Ir a Spotify</a>
+      <a href="https://music.youtube.com/" class="boton">Ir a YouTube Music</a>
+    </div>
+  </section>
+
+  <section class="ai-section">
+    <h2>Mejor app de IA 2025</h2>
+    <a href="https://chat.openai.com/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT">
+    </a>
+  </section>
+
+  <footer>
+    Esta web la hice yo, Benjamin García, para el mejor profe <span class="profe">Álvaro Wallace</span>.
+  </footer>
+
+</body>
+</html>
